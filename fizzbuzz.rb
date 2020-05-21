@@ -1,6 +1,6 @@
 
 def fizzbuzz
-  for i in 1..100
+  100.times do |i|
     if i % 15 == 0
       puts "fizzbuzz"
     elsif i % 5 == 0
